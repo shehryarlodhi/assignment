@@ -1,13 +1,15 @@
 const express = require("express"); 
 
-const cors = require("cors"); 
-
 const productModel = require("./getProduct"); 
-const placeorderModel = require("./placeorderModel"); 
+// const placeorderModel = require("./placeorderModel"); 
 
 const app = express()
 
 const mongoose = require("mongoose"); 
+
+const cors = require("cors"); 
+
+
 
 mongoose.connect("mongodb+srv://mirzasheraz:mirza123@cluster0.tryltpz.mongodb.net/Assignment01?retryWrites=true&w=majority");
 

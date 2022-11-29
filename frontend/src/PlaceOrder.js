@@ -8,8 +8,8 @@ import Button from "react-bootstrap/button";
 const PlaceOrder = ()=>{
 
 
-    const[data, setData] = useState([]); 
-    const [listofProducts, setlistofProducts] = useState([]);
+  const[data, setData] = useState([]); 
+  const [listofProducts, setlistofProducts] = useState([]);
   const [productId, setproductId] = useState(0); 
   const [productName, setproductName] = useState(""); 
   const [modelNumber, setmodelNumber] = useState(0); 
